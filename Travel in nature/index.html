@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel in nature</title>
+
+    <!-- css file linked -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- typed.js cdn linked -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <!-- remix cdn linked -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.4.0/remixicon.css"
+      integrity="sha512-hH7VMMVfPgfkpYx2GazOEG6RrYM+y8cS7FzccwBTWQeyhPv01XYk0MVcuhh4EAimOELWvqKjhNwes/UsYoyN6w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header class="hero">
+      <nav class="navbar-container">
+        <div class="navbar">
+          <div class="logo">
+            <span>TRAVEL</span>
+          </div>
+
+          <button class="navbar-toggler btn">
+            <i class="ri-menu-line"></i>
+          </button>
+
+          <ul class="nav-menu">
+            <li class="nav-list">
+              <a href="#" class="nav-link">Home</a>
+            </li>
+            <li class="nav-list">
+              <a href="#" class="nav-link">Places</a>
+            </li>
+            <li class="nav-list">
+              <a href="#" class="nav-link">Visitors</a>
+            </li>
+            <li class="nav-list">
+              <a href="#" class="nav-link">Travel</a>
+            </li>
+            <li class="nav-list">
+              <a href="#" class="nav-link">Hotels</a>
+            </li>
+            <li class="nav-list">
+              <a href="#" class="nav-link">Booking</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="hero-contents">
+        <div class="contents">
+          <div class="content">
+            <h4>
+              Destination <span id="typed"></span><span class="cursor"></span>
+            </h4>
+            <h1 class="content-heading">Saint Antonien</h1>
+            <p>
+              Welcome to the heart of Europe. Experience nature the way mother
+              nature intended.
+            </p>
+            <div class="buttons">
+              <button class="btn circle-btn">
+                <i class="ri-plane-fill"></i>
+              </button>
+              <button class="btn normal-btn">Book your destination</button>
+            </div>
+          </div>
+          <div class="carousel-container">
+            <div class="carousel-track">
+              <div class="carousel-item img-1">
+                <div class="text-content">
+                  <h5>Destination Shire</h5>
+                  <h1>Valley of Dreams</h1>
+                </div>
+              </div>
+              <div class="carousel-item img-2">
+                <div class="text-content">
+                  <h5>Destination Westwood</h5>
+                  <h1>Misty Woodlands</h1>
+                </div>
+              </div>
+              <div class="carousel-item img-3">
+                <div class="text-content">
+                  <h5>Destination France</h5>
+                  <h1>Beautiful Slopes</h1>
+                </div>
+              </div>
+              <div class="carousel-item img-4">
+                <div class="text-content">
+                  <h5>Destination Olympus</h5>
+                  <h1>A Slice of Heaven</h1>
+                </div>
+              </div>
+              <div class="carousel-item img-5">
+                <div class="text-content">
+                  <h5>Destination Uk</h5>
+                  <h1>Valley of Dreams</h1>
+                </div>
+              </div>
+              <div class="carousel-item img-6">
+                <div class="text-content">
+                  <h5>Destination Sea</h5>
+                  <h1>Ocean's Edge</h1>
+                </div>
+              </div>
+              <div class="carousel-item img-7">
+                <div class="text-content">
+                  <h5>Destination Germany</h5>
+                  <h1>Hidden Paradise</h1>
+                </div>
+              </div>
+              <div class="carousel-item img-8">
+                <div class="text-content">
+                  <h5>Destination Lost</h5>
+                  <h1>Paradise Island</h1>
+                </div>
+              </div>
+            </div>
+            <div class="buttons-container">
+              <button class="btn prev">&#10094;</button>
+              <button class="btn next">&#10095;</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- modal -->
+    <div class="modal-container modal">
+      <div class="modal-header">
+        <button class="btn-close btn">
+          <i class="ri-close-large-fill"></i>
+        </button>
+      </div>
+      <div class="modal-body">
+        <ul class="modal-menu">
+          <li class="modal-list">
+            <a href="#" class="modal-link">Home</a>
+          </li>
+          <li class="modal-list">
+            <a href="#" class="modal-link">Places</a>
+          </li>
+          <li class="modal-list">
+            <a href="#" class="modal-link">Visitors</a>
+          </li>
+          <li class="modal-list">
+            <a href="#" class="modal-link">Travel</a>
+          </li>
+          <li class="modal-list">
+            <a href="#" class="modal-link">Hotels</a>
+          </li>
+          <li class="modal-list">
+            <a href="#" class="modal-link">Booking</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- typed.js for dynamic typing -->
+    <script>
+      var typed = new Typed("#typed", {
+        strings: [
+          "NORWAY",
+          "WESTWOOD",
+          "FRANCE",
+          "OLYPUS",
+          "UK",
+          "GERMENY",
+          "SWITZERLAND",
+          "SPAIN",
+          "LOST",
+        ], // Strings to type
+        typeSpeed: 50, // Typing speed in milliseconds
+        backSpeed: 25, // Backspacing speed in milliseconds
+        loop: true, // Loop the typing animation
+      });
+    </script>
+
+    <!-- JS file linked -->
+    <script src="script.js"></script>
+  </body>
+</html>
