@@ -1,0 +1,79 @@
+// sidebar modal in replacement of sidebar when viewport is less then 1400px
+.sidebar-modal{
+    width: 300px;
+    height: fit-content;
+    background-color: antiquewhite;
+    position: absolute;
+    top: 0%;
+    z-index: 2;
+    display: none;
+}
+
+// search modal when viewport is greater then 992px
+.search-modal{
+    width: 600px;
+    height: fit-content;
+    border-radius: 7px;
+    box-shadow: 0 0 20px gray;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: -50%;
+    left: 50%;
+    display: none;
+    transition: 0.5s;
+
+    .search-container{
+        width: 100%;
+        height: 400px;
+
+        .search-header{
+            width: 100%;
+            height: 60px;
+            padding: 10px;
+            @include flexbox(row, space-between, center);
+
+            .input-feld{
+                flex-grow: 1;
+                padding: 8px;
+                border: 1px solid lightgray;
+                border-radius: 5px;
+                outline: none;
+                background: none;
+            }
+
+            .close-btn{
+                padding: 5px 10px;
+                font-size: 14px;
+            }
+        }
+
+        .search-body{
+            width: 100%;
+            height: 80%;
+            padding: 10px;
+            overflow: auto;
+            @include scroolbar;
+
+            .search-heading{
+                font-weight: 400;
+                color: #616977;
+            }
+
+            .search-list{
+                width: 100%;
+                height: fit-content;
+                padding: 5px 0 0 15px;
+
+                .search-item{
+                    width: 100%;
+                    padding: 5px;
+                    @include flexbox(column, center, flex-start);
+
+                    span{
+                        color: #616977;
+                    }
+                }
+            }
+        }
+    }
+}
