@@ -1,6 +1,6 @@
 # JavaScript
 
-<h1>Background Color Changer - JavaScript</h1>
+<h1>Background Color Changer</h1>
 
 <h2>Overview</h2>
 <p>This JavaScript code creates a simple background color changer that assigns a random color to the webpage each time a button is clicked. Additionally, the generated color code is displayed and can be copied to the clipboard by clicking on it.</p>
