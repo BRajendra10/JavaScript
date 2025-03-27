@@ -18,6 +18,10 @@
 
 - When the displayed color code (#color element) is clicked, it is copied to the clipboard using navigator.clipboard.writeText().
 
+## Output
+
+![Output](https://github.com/BRajendra10/JavaScript/blob/6ac61ee99dbf8a34cb1842aa5a15d9361b638588/Background%20color%20changer/Background%20color%20changer.gif)
+
 ---
 
 # Form Validation
