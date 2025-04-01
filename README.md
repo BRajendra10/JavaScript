@@ -23,12 +23,12 @@ This JavaScript code creates a simple background color changer that assigns a ra
 
 ---
 
-# Form Validation
+# ✅ Form Validation
 
-## Overview
+## 📌 Overview
 This JavaScript-based Sign-Up Form Validation ensures that users enter valid information before submitting the form. The validation process checks each input field for correctness and provides feedback through alerts.
 
-## How It Works
+## 🔍 How It Works
 
 - Name Field: Must not contain numbers or special characters.
 - Email Field: Must be in lowercase and end with @gmail.com.
@@ -37,7 +37,7 @@ This JavaScript-based Sign-Up Form Validation ensures that users enter valid inf
 - If invalid input is detected, a specific error message is displayed.
 - If all conditions are met, a success message confirms successful sign-up.
 
-## output
+## 🎥 Output
 
 ![Output](https://github.com/BRajendra10/JavaScript/blob/ce094672a2faeb92a5037e518a08c0abe0ee42bc/Form%20validation/Form%20validation.gif)
 
