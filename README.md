@@ -19,7 +19,7 @@ This JavaScript code creates a simple background color changer that assigns a ra
 
 ## 🎥 Output
 
-![https://github.com/BRajendra10/JavaScript/tree/main/Background%20color%20changer](https://github.com/BRajendra10/JavaScript/blob/6ac61ee99dbf8a34cb1842aa5a15d9361b638588/Background%20color%20changer/Background%20color%20changer.gif)
+![Output](https://github.com/BRajendra10/JavaScript/blob/6ac61ee99dbf8a34cb1842aa5a15d9361b638588/Background%20color%20changer/Background%20color%20changer.gif)
 
 ---
 
@@ -76,4 +76,4 @@ A simple digital clock built using HTML, CSS, and jQuery, enhanced with Remix Ic
 
 ## 📌 Output
 
-![https://github.com/BRajendra10/JavaScript/tree/main/Digital%20Clock](https://github.com/BRajendra10/JavaScript/blob/2909e10278312f6abe622ffe72be1d6668fd6092/Digital%20Clock/digital%20clock.gif)
+![Output](https://github.com/BRajendra10/JavaScript/blob/2909e10278312f6abe622ffe72be1d6668fd6092/Digital%20Clock/digital%20clock.gif)
