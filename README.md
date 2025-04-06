@@ -59,3 +59,17 @@ A simple and interactive CRUD-Based To-Do List App built with HTML, CSS, and jQu
 - Live Demo: Comming soon
 - Linkedin Post: comming soon
 
+---
+
+# ⏰ Digital Clock with jQuery & Remix Icons
+
+A simple digital clock built using HTML, CSS, and jQuery, enhanced with Remix Icons for clean UI. The clock displays the current hours, minutes, and seconds, and updates every second in real-time.
+
+## 🔧 Features
+📟 Live digital time update (HH : MM : SS)
+
+✍️ Editable interface buttons (UI only, logic not implemented yet)
+
+🔄 Placeholder buttons for reset, pause, and settings
+
+🎨 Clean and responsive UI with Remix Icons
