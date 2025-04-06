@@ -19,7 +19,7 @@ This JavaScript code creates a simple background color changer that assigns a ra
 
 ## 🎥 Output
 
-![Output](https://github.com/BRajendra10/JavaScript/blob/6ac61ee99dbf8a34cb1842aa5a15d9361b638588/Background%20color%20changer/Background%20color%20changer.gif)
+![https://github.com/BRajendra10/JavaScript/tree/main/Background%20color%20changer](https://github.com/BRajendra10/JavaScript/blob/6ac61ee99dbf8a34cb1842aa5a15d9361b638588/Background%20color%20changer/Background%20color%20changer.gif)
 
 ---
 
