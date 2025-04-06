@@ -73,3 +73,7 @@ A simple digital clock built using HTML, CSS, and jQuery, enhanced with Remix Ic
 🔄 Placeholder buttons for reset, pause, and settings
 
 🎨 Clean and responsive UI with Remix Icons
+
+## 📌 Output
+
+![https://github.com/BRajendra10/JavaScript/tree/main/Digital%20Clock](https://github.com/BRajendra10/JavaScript/blob/2909e10278312f6abe622ffe72be1d6668fd6092/Digital%20Clock/digital%20clock.gif)
