@@ -113,3 +113,27 @@ A minimal and smooth image carousel built with **HTML**, **CSS**, and **JavaScri
 
 ---
 
+# 🎠 Image slider & 💬 Quote Slider
+
+1. **Image Slider** - A simple sliding gallery with navigation buttons and auto-play.
+2. **Quote Slider** - A motivational quote slider with smooth transitions and auto-play.
+
+## 📸 Image Carousel
+
+A basic responsive carousel that displays images in a sliding format. Includes:
+- Previous / Next buttons
+- Auto slide every 2 seconds
+- Smooth transition
+
+## 📝 Quote Slider
+
+A motivational quote slider that cycles through text quotes with:
+- Clean UI
+- Button controls
+- Automatic transition every 3 seconds
+
+## 📌 Output
+
+![Output](https://github.com/BRajendra10/JavaScript/blob/23ed25233968125233bd35d620b640fb5f066040/image%20slider/image%20slider.gif)
+![Output](https://github.com/BRajendra10/JavaScript/blob/4a6d5f586276b4d95a6c86a8b38edb8df795fc54/Qute%20slider/qute%20slider.gif)
+
