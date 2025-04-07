@@ -125,6 +125,10 @@ A basic responsive carousel that displays images in a sliding format. Includes:
 - Auto slide every 2 seconds
 - Smooth transition
 
+## 📌 Output
+
+![Output](https://github.com/BRajendra10/JavaScript/blob/23ed25233968125233bd35d620b640fb5f066040/image%20slider/image%20slider.gif)
+
 ## 📝 Quote Slider
 
 A motivational quote slider that cycles through text quotes with:
@@ -134,6 +138,5 @@ A motivational quote slider that cycles through text quotes with:
 
 ## 📌 Output
 
-![Output](https://github.com/BRajendra10/JavaScript/blob/23ed25233968125233bd35d620b640fb5f066040/image%20slider/image%20slider.gif)
 ![Output](https://github.com/BRajendra10/JavaScript/blob/4a6d5f586276b4d95a6c86a8b38edb8df795fc54/Qute%20slider/qute%20slider.gif)
 
