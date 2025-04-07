@@ -56,8 +56,7 @@ A simple and interactive CRUD-Based To-Do List App built with HTML, CSS, and jQu
 
 ## 📌 Output
 
-- Live Demo: Comming soon
-- Linkedin Post: comming soon
+![Output](https://github.com/BRajendra10/JavaScript/blob/a2292f90e83f97529559f181db33b284216c543f/TO-DO%20APP/to-do%20app.gif)
 
 ---
 
