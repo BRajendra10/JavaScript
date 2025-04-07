@@ -96,23 +96,6 @@ A simple and interactive **Countdown Timer** built using **HTML**, **CSS**, and 
 
 ---
 
-# 📸 Simple Image Carousel
-
-A minimal and smooth image carousel built with **HTML**, **CSS**, and **JavaScript**. It supports auto sliding, previous/next buttons, and a clean layout.
-
-## ✨ Features
-
-- ➕ Previous and Next slide navigation
-- 🔄 Auto-play every 2 seconds
-- 🔥 Smooth transition effect
-- 📱 Responsive-ready layout (with future enhancements)
-
-## 📌 Output
-
-![Output](https://github.com/BRajendra10/JavaScript/blob/23ed25233968125233bd35d620b640fb5f066040/image%20slider/image%20slider.gif)
-
----
-
 # 🎠 Image slider & 💬 Quote Slider
 
 1. **Image Slider** - A simple sliding gallery with navigation buttons and auto-play.
