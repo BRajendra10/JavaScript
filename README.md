@@ -82,9 +82,6 @@ A simple digital clock built using HTML, CSS, and jQuery, enhanced with Remix Ic
 
 A simple and interactive **Countdown Timer** built using **HTML**, **CSS**, and **JavaScript**. Users can set a timer based on hours, minutes, or seconds and start the countdown with a sleek, modern UI.
 
-![Demo Screenshot](./screenshot.png) <!-- Replace with actual screenshot path if you have one -->
-
-
 ## 🔥 Features
 
 - 🎯 User-selectable time duration (1 to 60)
