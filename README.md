@@ -93,5 +93,9 @@ A simple and interactive **Countdown Timer** built using **HTML**, **CSS**, and 
 - ❌ Close button with icon to exit timer
 - 📱 Fully responsive for all devices
 
+## 📌 Output
+
+![Output](https://github.com/BRajendra10/JavaScript/blob/30e31b540e70c10e5497f6c26ae847e1219586b5/Countdown/countdown.gif)
+
 ---
 
