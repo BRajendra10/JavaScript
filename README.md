@@ -122,3 +122,22 @@ A motivational quote slider that cycles through text quotes with:
 
 ![Output](https://github.com/BRajendra10/JavaScript/blob/4a6d5f586276b4d95a6c86a8b38edb8df795fc54/Qute%20slider/qute%20slider.gif)
 
+---
+
+# 🎯 Quiz Website Project
+
+A fully responsive and interactive **Quiz App** built with **HTML**, **CSS**, and **JavaScript**. The app presents users with 10 multiple-choice questions, each displayed for 60 seconds, and shows the final score at the end. Designed with a modern UI to enhance user engagement and experience.
+
+## 🚀 Features
+
+- ✅ 10 Multiple Choice Questions (MCQs)
+- ⏱️ 60-second timer for each question
+- 🧠 One question at a time interface
+- 🧾 Automatic score calculation at the end
+- 🎨 Clean and attractive UI
+- 📱 Responsive design (mobile + desktop)
+- 💡 Easy to customize and extend with new questions
+
+## 📌 Output
+
+Comming soon
