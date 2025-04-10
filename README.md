@@ -150,5 +150,3 @@ This project focuses on core front-end concepts:
 ## 📌 Output
 
 ![Output](https://github.com/BRajendra10/JavaScript/blob/b052c9b551c9eba126147f068324e075e61d4369/Quiz%20app/Quiz%20app.gif)
-
-![Linkedin post](https://www.linkedin.com/feed/update/urn:li:ugcPost:7316106391495086080/)
