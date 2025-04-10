@@ -124,20 +124,29 @@ A motivational quote slider that cycles through text quotes with:
 
 ---
 
-# 🎯 Quiz Website Project
+# 🧠 Quiz App
 
-A fully responsive and interactive **Quiz App** built with **HTML**, **CSS**, and **JavaScript**. The app presents users with 10 multiple-choice questions, each displayed for 60 seconds, and shows the final score at the end. Designed with a modern UI to enhance user engagement and experience.
+A beginner-friendly Quiz Application built with HTML, CSS, and JavaScript.
+It presents 10 HTML-related multiple-choice questions, runs on a timer ⏱️, and displays the user’s final score 📊.
 
-## 🚀 Features
+## 📌 What This Project Covers
 
-- ✅ 10 Multiple Choice Questions (MCQs)
-- ⏱️ 60-second timer for each question
-- 🧠 One question at a time interface
-- 🧾 Automatic score calculation at the end
-- 🎨 Clean and attractive UI
-- 📱 Responsive design (mobile + desktop)
-- 💡 Easy to customize and extend with new questions
+This project focuses on core front-end concepts:
+- 🛠️ DOM manipulation – Dynamically displays questions and answer options.
+- 🎯 Event handling – Handles user interactions like clicking answers or starting the quiz.
+- ⏳ Timers – Uses setInterval() to manage a 60-second countdown for the quiz.
+- 🧠 Quiz logic – Tracks the current question, checks answers, and calculates the score.
+- 🧱 Project structure – Keeps HTML, CSS, and JS organized and easy to maintain.
+
+## 🎮 How the App Works
+
+- 🟢 The quiz starts with a welcome screen and a Start Quiz button
+- 🔄 Once started, a 60-second timer begins
+- 📋 One question is shown at a time with multiple answer options
+- ✅ Clicking an option checks if it's correct, then moves to the next question
+- 🚨 If time runs out mid-question, the app auto-moves to the next one
+- 📈 After all questions, the final score is displayed on a result screen
 
 ## 📌 Output
 
-Comming soon
+- Linked in post: comming soon
