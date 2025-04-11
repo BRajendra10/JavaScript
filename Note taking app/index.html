@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- css file linked -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- remix cdn linked -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.4.0/remixicon.css" integrity="sha512-hH7VMMVfPgfkpYx2GazOEG6RrYM+y8cS7FzccwBTWQeyhPv01XYk0MVcuhh4EAimOELWvqKjhNwes/UsYoyN6w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+    <div class="container">
+        <div class="header">
+            <div class="inputs">
+                <input type="text" name="title" class="note-title" id="note-title" placeholder="Title">
+                <input type="text" name="text" id="note-text" placeholder="Take a note..">
+            </div>
+            <div class="buttons">
+                <span class="btns">
+                    <button class="btn dropdown">
+                        <i class="ri-palette-line"></i>
+                        
+                        <div class="dropdown-container">
+                            <div class="box orange"></div>
+                            <div class="box yellow"></div>
+                            <div class="box mint"></div>
+                            <div class="box sky-blue"></div>
+                            <div class="box blue"></div>
+                            <div class="box clay"></div>
+                        </div>
+                    </button>
+                    <button class="btn"><i class="ri-pushpin-2-line"></i></button>
+                </span>
+                <button class="btn" id="add-note">Add note</button>
+            </div>
+        </div>
+        <div class="body">
+            <div class="note-container">
+                <span class="text-content">
+                    <h4 class="title">Make a note taking app</h4>
+                    <p class="text">make a note taking app using html css and javaScript</p>
+                </span>
+                <div class="buttons">
+                    <button class="btn bg-color dropdown">
+                        <i class="ri-palette-line"></i>
+                        <div class="dropdown-container">
+                            <div class="box blue"></div>
+                            <div class="box orange"></div>
+                            <div class="box sky-blue"></div>
+                            <div class="box yellow"></div>
+                            <div class="box clay"></div>
+                        </div>
+                    </button>
+                    <button class="btn note-pin"><i class="ri-pushpin-2-line"></i></button>
+                    <button class="btn note-menu"><i class="ri-more-2-line"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JS file linked -->
+    <script src="script.js"></script>
+</body>
+</html>
