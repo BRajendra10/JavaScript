@@ -59,9 +59,7 @@ function warning_notification(){
 
 function create_eliment(tag, class_name = [], content) {
     let eliment = document.createElement(tag);
-    class_name.forEach((e) => {
-        eliment.classList.add(e);
-    });
+    class_name.forEach((e) => eliment.classList.add(e));
 
     return eliment;
 }
