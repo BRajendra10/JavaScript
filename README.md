@@ -150,3 +150,27 @@ This project focuses on core front-end concepts:
 ## 📌 Output
 
 ![Output](https://github.com/BRajendra10/JavaScript/blob/b052c9b551c9eba126147f068324e075e61d4369/Quiz%20app/Quiz%20app.gif)
+
+---
+
+# 🚀 Toast Notification App
+
+A simple and elegant Toast Notification App built with HTML, CSS, and JavaScript ⚡. It displays success ✅, error ❌, and warning ⚠️ notifications with smooth CSS animations.
+
+## 🛠️ Features
+
+- ✅ Success Notification with check icon
+- ❌ Error Notification with close icon
+- ⚠️ Warning Notification with warning icon
+- 🧩 Modular JavaScript functions
+- 🎨 Smooth CSS animations
+- 📱 Fully responsive layout
+
+## 📷 Output
+
+- Comming soon
+
+## 🙌 Author
+
+- Made with ❤️ by Rajendra Behera
+[LinkedIn]() | [GitHub](https://github.com/BRajendra10/JavaScript/tree/main/Toast%20notification)
