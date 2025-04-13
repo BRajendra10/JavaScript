@@ -168,9 +168,10 @@ A simple and elegant Toast Notification App built with HTML, CSS, and JavaScript
 
 ## 📷 Output
 
-- Comming soon
+![Output](https://github.com/BRajendra10/JavaScript/blob/7de83331b9644b3a8f31629c58787e025098430b/Toast%20notification/Toast_notification_app.gif)
 
 ## 🙌 Author
 
 - Made with ❤️ by Rajendra Behera
+
 [LinkedIn]() | [GitHub](https://github.com/BRajendra10/JavaScript/tree/main/Toast%20notification)
