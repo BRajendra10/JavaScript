@@ -178,4 +178,21 @@ Switch between ⏳ **Countdown** and 🕒 **Stopwatch**, with full control and a
 ### 📦 GitHub Repo  
 [Github repository](https://github.com/BRajendra10/JavaScript/tree/main/Coutndown%20and%20stopwatch)
 
+--- 
+
+# 🔁 Random Quote Generator
+
+A simple random quote generator using HTML, CSS, JavaScript, and a public API.
+
+- Click the button to get a new quote 📜
+- Fetches data from `https://dummyjson.com/quotes`
+- Clean UI with real-time interactivity ⚡
+
+![HTML](https://img.shields.io/badge/-HTML-orange?style=flat)
+![CSS](https://img.shields.io/badge/-CSS-blue?style=flat)
+![JavaScript](https://img.shields.io/badge/-JavaScript-yellow?style=flat)
+![API](https://img.shields.io/badge/-API-green?style=flat)
+
+> Made with ❤️ by Rajendra Behera
+
 
