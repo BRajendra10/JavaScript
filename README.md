@@ -173,9 +173,9 @@ Switch between ⏳ **Countdown** and 🕒 **Stopwatch**, with full control and a
 - 💡 Vanilla JavaScript logic  
 
 ## 🔗 Live Demo  
-👉 [View Project](https://your-live-link.com)
+![View Project](https://github.com/BRajendra10/JavaScript/blob/d765f562f8d2682c2fc3920b6ffadb5035dac871/Coutndown%20and%20stopwatch/Countdowan_and_stopwatch.gif)
 
 ## 📦 GitHub Repo  
-🔧 [Clone or Fork](https://github.com/your-username/your-repo-name)
+[Github repository](https://github.com/BRajendra10/JavaScript/tree/main/Coutndown%20and%20stopwatch)
 
 
