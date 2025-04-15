@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- css file linked -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- remix cdn linked -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.4.0/remixicon.css" integrity="sha512-hH7VMMVfPgfkpYx2GazOEG6RrYM+y8cS7FzccwBTWQeyhPv01XYk0MVcuhh4EAimOELWvqKjhNwes/UsYoyN6w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+    <div class="container">
+        <div class="clock-container">
+            <div class="clock-header">
+                <h3 class="heading">Countdown Timer</h3>
+                <button class="btn btn-close"><i class="ri-close-large-fill"></i></button>
+            </div>
+            <div class="clock-body">
+                <div class="text" id="hour">00</div>
+                <div class="indecate">Hour</div>
+                <div class="text" id="min">00</div>
+                <div class="indecate">Min</div>
+                <div class="text" id="sec">00</div>
+                <div class="indecate">Sec</div>
+            </div>
+            <div class="clock-footer">
+                <button class="btn btn-edit"><i class="ri-edit-2-fill"></i></button>
+                <button class="btn btn-restart"><i class="ri-loop-right-line"></i></button>
+                <button class="btn btn-pause"><i class="ri-pause-large-line"></i></button>
+                <button class="btn btn-seting"><i class="ri-settings-5-fill"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <div class="set-time-container">
+        <div class="header">
+            <h3 class="set-time-heading">Set time</h3>
+            <button class="btn btn-close-set-time"><i class="ri-close-large-fill"></i></button>
+        </div>
+        <div class="body">
+            <div class="btns-group">
+                <button class="btn btn-minus"><i class="ri-arrow-left-s-line"></i></button>
+                <button class="btn number">1</button>
+                <button class="btn btn-plus"><i class="ri-arrow-right-s-line"></i></button>
+            </div>
+            <div class="btns-group">
+                <button class="btn btn-left"><i class="ri-arrow-left-s-line"></i></button>
+                <button class="btn time-type">sec</button>
+                <button class="btn btn-right"><i class="ri-arrow-right-s-line"></i></button>
+            </div>
+        </div>
+        <div class="footer">
+            <button class="btn set-time">Apply</button>
+        </div>
+    </div>
+
+    <!-- js file linked -->
+     <script src="script.js"></script>
+</body>
+</html>
