@@ -157,3 +157,19 @@ A simple and elegant Toast Notification App built with HTML, CSS, and JavaScript
 - Made with ❤️ by Rajendra Behera
 
 [LinkedIn]() | [GitHub](https://github.com/BRajendra10/JavaScript/tree/main/Toast%20notification)
+
+---
+
+# ⏱️ Countdown + Stopwatch Timer
+
+A simple dual-mode timer app built with **HTML**, **CSS**, and **JavaScript**.  
+Switch between ⏳ **Countdown** and 🕒 **Stopwatch**, with full control and a smooth UI — no libraries, just logic.
+
+## 🚀 Features
+- 🔁 Countdown & Stopwatch modes  
+- ⌨️ Set custom time (sec, min, hour)  
+- ⏸️ Pause / ▶️ Resume / 🔄 Restart  
+- 🎨 Clean UI with Remix Icons  
+- 💡 Vanilla JavaScript logic  
+
+
