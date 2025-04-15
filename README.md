@@ -172,10 +172,10 @@ Switch between ⏳ **Countdown** and 🕒 **Stopwatch**, with full control and a
 - 🎨 Clean UI with Remix Icons  
 - 💡 Vanilla JavaScript logic  
 
-## 🔗 Live Demo  
+### 🔗 Live Demo  
 ![View Project](https://github.com/BRajendra10/JavaScript/blob/d765f562f8d2682c2fc3920b6ffadb5035dac871/Coutndown%20and%20stopwatch/Countdowan_and_stopwatch.gif)
 
-## 📦 GitHub Repo  
+### 📦 GitHub Repo  
 [Github repository](https://github.com/BRajendra10/JavaScript/tree/main/Coutndown%20and%20stopwatch)
 
 
