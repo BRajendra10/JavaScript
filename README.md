@@ -172,4 +172,10 @@ Switch between ⏳ **Countdown** and 🕒 **Stopwatch**, with full control and a
 - 🎨 Clean UI with Remix Icons  
 - 💡 Vanilla JavaScript logic  
 
+## 🔗 Live Demo  
+👉 [View Project](https://your-live-link.com)
+
+## 📦 GitHub Repo  
+🔧 [Clone or Fork](https://github.com/your-username/your-repo-name)
+
 
