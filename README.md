@@ -127,7 +127,8 @@ Generates motivational quotes using `https://dummyjson.com/quotes`.
 - New quote on every click
 
 🎥 **Demo Preview**  
-*(Add a GIF or screenshot if available)*
+
+![Output](https://github.com/BRajendra10/JavaScript/blob/95918ff6f8bba822cca0942115226385becca514/Random%20Quote%20Generator/Random%20quote%20generator.gif)
 
 ---
 
