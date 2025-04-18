@@ -132,6 +132,22 @@ Generates motivational quotes using `https://dummyjson.com/quotes`.
 
 ---
 
+# 🔍 Image Search Engine
+
+A sleek and simple Image Search Engine built using HTML, CSS, JavaScript, and the Pixabay API. Instantly search for stunning, high-resolution images from the web! 🌐🖼️
+
+## 🚀 Features
+
+- 🔎 Live Image Search powered by Pixabay API
+- 💡 User-friendly UI with responsive input and clean layout
+- ⚙️ Remix Icon Integration for modern search experience
+- 📦 Fetch and display multiple images based on user query
+- 🔄 Simple API handling with JavaScript
+
+## 📸 Preview
+
+- comming soon
+
 ## ✨ More Projects Coming Soon...
 
 Stay tuned for more JavaScript projects & UI components. Always learning, always building!
