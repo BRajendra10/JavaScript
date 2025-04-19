@@ -164,7 +164,7 @@ A sleek and responsive Weather App built using **HTML**, **CSS**, and **JavaScri
 
 ## 📸 Preview
 
-- Commind soon
+![Output](https://github.com/BRajendra10/JavaScript/blob/58103be1c267ed25ad9f1a2d7dd65b8509d94d15/Weather%20app/weather%20app.gif)
 
 ---
 
