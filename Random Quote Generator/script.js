@@ -5,6 +5,10 @@ document.querySelector(".btn-new").addEventListener("click", () => {
   generate_quotes();
 });
 
+document.querySelector('.btn-copy').addEventListener('click', () => {
+  navigator.clipboard.writeText(quote.innerHTML);
+});
+
 function generate_quotes() {
   let num = Math.floor(Math.random() * 30);
   let url = "https://dummyjson.com/quotes";
