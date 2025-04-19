@@ -150,6 +150,24 @@ A sleek and simple Image Search Engine built using HTML, CSS, JavaScript, and th
 
 ---
 
+# 🌦️ Weather App
+
+A sleek and responsive Weather App built using **HTML**, **CSS**, and **JavaScript** that fetches real-time weather data using the **OpenWeatherMap API**.
+
+## 🚀 Features
+
+- 🔍 Search current weather by city name  
+- 🌡️ Displays temperature, humidity & wind speed  
+- 🌤️ Dynamic weather icons based on real-time conditions  
+- ❌ Error handling for invalid city inputs  
+- 💡 Responsive UI for different screen sizes
+
+## 📸 Preview
+
+- Commind soon
+
+---
+
 ## ✨ More Projects Coming Soon...
 
 Stay tuned for more JavaScript projects & UI components. Always learning, always building!
