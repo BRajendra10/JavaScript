@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #C2E8F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 550px;
+    height: 230px;
+    background-color: #44849B;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.clock-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.clock-header,
+.clock-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heading {
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.btn {
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+    transition: transform 0.2s ease;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+.clock-body {
+    background-color: #18323D;
+    padding: 15px 20px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+
+.text {
+    font-size: 50px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.indecate {
+    font-size: 18px;
+    color: #E0E0E0;
+    margin-right: 15px;
+}
+
+/* Set Time Container Styling */
+.set-time-container {
+    width: 350px;
+    background-color: #44849B;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 20%;
+    left: 50%;
+    display: none;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.active-set-time{
+    display: flex;
+}
+
+.header,
+.footer {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.footer{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.set-time-heading {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.body {
+    background-color: #18323D;
+    padding: 15px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btns-group {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.btns-group .btn {
+    border: 1px solid #aaa;
+    padding: 6px 10px;
+    border-radius: 6px;
+    transition: background 0.2s ease;
+}
+
+.btns-group .btn:hover {
+    background-color: #ffffff1a;
+}
+
+.btn-num,
+.btn-type {
+    padding: 6px 12px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+.footer .set-time {
+    background-color: #C2E8F6;
+    padding: 8px 15px;
+    border-radius: 8px;
+    font-weight: 600;
+    color: #18323D;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.footer .set-time:hover {
+    background-color: #9ddcf1;
+}
