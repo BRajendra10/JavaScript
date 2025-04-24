@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app</title>
+
+    <!-- css flie linked -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- remix cdn linked -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.5.0/remixicon.css" integrity="sha512-6p+GTq7fjTHD/sdFPWHaFoALKeWOU9f9MPBoPnvJEWBkGS4PKVVbCpMps6IXnTiXghFbxlgDE8QRHc3MU91lJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+    <div class="weather-container">
+        <div class="search-container">
+            <input type="text" class="search" placeholder="search city for weather info">
+
+            <button class="btn btn-search"><i class="ri-search-line"></i></button>
+        </div>
+        <div class="weather">
+            <img src="./assets/snow.png" alt="weather-icon" class="weather-icon">
+            <h1 class="temp">22°C</h1>
+            <h2 class="city">New york</h2>
+            <div class="details">
+                <div class="col">
+                    <i class="ri-mist-line"></i>
+                    <div>
+                        <p class="humidity">50%</p>
+                        <p>humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <i class="ri-windy-fill"></i>
+                    <div>
+                        <p class="wind">5m/s</p>
+                        <p>wind</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- js file linked -->
+    <script src="script.js"></script>
+</body>
+</html>

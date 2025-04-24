@@ -1,0 +1,323 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.hero {
+  width: 100%;
+  height: 100vh;
+}
+.navbar-container {
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+}
+.navbar-container .navbar {
+  width: 90%;
+  height: 10vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar .logo span {
+  color: #df9b1d;
+  font-size: 22px;
+  font-weight: bold;
+}
+.navbar .logo span::before {
+  content: "GO";
+  color: white;
+}
+.navbar .navbar-toggler {
+  background: none;
+  border: none;
+  outline: none;
+  display: none;
+}
+.navbar .navbar-toggler i {
+  font-size: 22px;
+  color: white;
+  font-weight: bold;
+}
+.navbar .nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-menu .nav-list {
+  padding: 0 20px;
+}
+.nav-menu .nav-list .nav-link {
+  font-size: 17px;
+  color: white;
+}
+.nav-menu .nav-list .nav-link:hover {
+  color: #dddddd;
+}
+.hero-contents {
+  width: 100%;
+  height: fit-content;
+}
+.hero-contents .contents {
+  width: 90%;
+  height: 90vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.contents .content {
+  width: 30%;
+  color: white;
+  padding: 130px 0;
+}
+.content h4 {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+.content h4::before {
+  content: "";
+  display: block;
+  border: 1px solid white;
+  width: 6%;
+  margin-bottom: 10px;
+}
+.content h1 {
+  font-size: 60px;
+  text-transform: uppercase;
+}
+.content h1 span{
+  display: block;
+}
+.content p {
+  font-size: 17px;
+}
+.content .buttons {
+  margin-top: 50px;
+}
+.content .buttons .circle-btn {
+  width: 50px;
+  height: 50px;
+  background-color: #ffa500;
+  color: white;
+  border: none;
+  outline: none;
+  font-size: 30px;
+  font-weight: bolder;
+  border-radius: 50%;
+  margin-right: 30px;
+  rotate: 50deg;
+}
+.content .buttons .normal-btn {
+  padding: 10px 16px;
+  font-size: 20px;
+  border-radius: 30px;
+  border: 1px solid white;
+  color: white;
+  outline: none;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+}
+.carousel-container{
+    width: 60%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    overflow: hidden;
+}
+.carousel-container .carousel-track{
+    display: grid;
+    overflow: hidden;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 10px;
+    transition: 1.7s;
+}
+.carousel-track .carousel-item{
+    width: 265px;
+    height: 370px;
+    border-radius: 8%;
+    position: relative;
+}
+.carousel-track .carousel-item .text-content{
+  width: 100%;
+  height: 130px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  padding: 10px;
+  position: absolute;
+  bottom: 0%;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  color: white;
+  text-transform: uppercase;
+}
+.carousel-container .buttons-container{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.buttons-container .btn{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1));
+  border: 1px solid white;
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+  margin-right: 20px;
+  outline: none;
+}
+
+.img-1{
+    background-image: url("./assets/01.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.img-2{
+    background-image: url("./assets/02.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.img-3{
+    background-image: url("./assets/03.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.img-4{
+    background-image: url("./assets/04.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.img-5{
+    background-image: url("./assets/05.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.img-6{
+    background-image: url("./assets/06.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.img-7{
+  background-image: url("./assets/07.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.img-8{
+  background-image: url("./assets/08.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+
+
+/*  typed.js */
+.cursor {
+  animation: blink 0.7s infinite;
+}
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+/*  modal css */
+.modal-container {
+  width: 100%;
+  height: 100vh;
+  background-color: #987350;
+  position: absolute;
+  top: -100%;
+  left: 0%;
+  transition: 0.7s ease;
+}
+.modal-container .modal-header {
+  width: 100%;
+  height: 10vh;
+  padding: 0 10px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.modal-header .btn-close {
+  background: none;
+  border: none;
+  outline: none;
+}
+.modal-header .btn-close i {
+  color: white;
+  font-size: 18px;
+  font-weight: bolder;
+}
+.modal-body {
+  width: 100%;
+  height: fit-content;
+}
+.modal-body .modal-menu {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.modal-menu .modal-list .modal-link {
+  color: white;
+  font-size: 18px;
+}
+
+/*  hidden classes */
+.show-modal {
+  display: block;
+  top: 0%;
+}
+
+/* Media query */
+@media (max-width: 992px) {
+  .hero{
+    height: fit-content;
+  }
+  .navbar-container .navbar {
+    width: 95%;
+  }
+  .navbar .nav-menu {
+    display: none;
+  }
+  .navbar .navbar-toggler {
+    display: block;
+  }
+  .hero-contents{
+    height: fit-content;
+  }
+  .hero-contents .contents{
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .contents .content{
+    width: 100%;
+  }
+  .carousel-container{
+    width: 100%;
+  }
+  .carousel-container .carousel-track{
+    height: 370px;
+  }
+}
