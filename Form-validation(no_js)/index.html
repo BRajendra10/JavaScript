@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div>
+            <input type="email" id="email" placeholder="Enter Email" required pattern=pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$">
+            <span class="error">Plese enter valid email</span>
+        </div>
+        <div>
+            <input type="password" id="password" placeholder="Enter password" required pattern="^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{8,}$">
+            <span class="error">Use 8+ chars, 1 uppercase, 1 lowercase, 1 digit & 1 special char</span>
+        </div>
+
+        <button class="btn" onclick="location.reload()">Sign up</button>
+    </div>
+</body>
+</html>
