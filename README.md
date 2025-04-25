@@ -64,15 +64,19 @@ Two carousel components for image and quote transitions.
 
 ### 📸 Image Slider:
 - Previous / Next controls  
-- Auto-play every 2 seconds  
+- Auto-play every 2 seconds
+
+### 🎥 **Demo**  
+
+![Image Slider](https://github.com/BRajendra10/JavaScript/blob/8f388c431d3499fb56180fd30906e486ac6dc041/Image-slider/image%20slider.gif)  
 
 ### 📝 Quote Slider:
 - Cycles motivational quotes  
 - Smooth transitions  
 - Auto-play every 3 seconds  
 
-🎥 **Demo**  
-![Image Slider](https://github.com/BRajendra10/JavaScript/blob/8f388c431d3499fb56180fd30906e486ac6dc041/Image-slider/image%20slider.gif)  
+### 🎥 **Demo**  
+
 ![Quote Slider](https://github.com/BRajendra10/JavaScript/blob/8f388c431d3499fb56180fd30906e486ac6dc041/Quote-app/qute%20slider.gif)
 
 ---
