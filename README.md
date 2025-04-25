@@ -29,7 +29,7 @@ A responsive Sign-Up form with input validation.
 - Email: Lowercase only, must end in `@gmail.com`  
 - Password: Requires one number, one special char, and must match
 
-🎥 **Demo**  
+### 🎥 **Demo**  
 ![Form Validation](https://github.com/BRajendra10/JavaScript/blob/8f388c431d3499fb56180fd30906e486ac6dc041/Form-validation/Form%20validation.gif)
 
 ---
