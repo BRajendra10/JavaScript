@@ -188,7 +188,8 @@ It fetches product data from a public API and displays trending products with th
 ![Output](https://github.com/BRajendra10/JavaScript/blob/c808a7d8fc79db322fcfbc376807e54c8a543987/Add-to-cart-system/add-to-cart-system.gif)
 
 
-📜 API Reference
+### 📜 API Reference
+
 Products fetched from: "https://dummyjson.com/products"
 
 ---
