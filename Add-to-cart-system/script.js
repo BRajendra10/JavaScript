@@ -19,11 +19,7 @@ function create_eliment(tag, class_name = [], tag_info){
 }
 
 function create_product(products){
-    console.log(products);
-
     for(let product of products){
-        console.log(product.price);
-
         let col_6 = create_eliment('div', ['col-6']);
         let card = create_eliment('div', ['card', 'mb-5']);
         card.style['max-width'] = '600px';
@@ -60,5 +56,11 @@ function create_product(products){
 
         document.querySelector('.container .row').appendChild(col_6);
 
+        const btns = document.querySelectorAll('.btn');
+        add_to_cart(btns);
     }
+}
+
+function add_to_cart(btns){
+    console.log(btns);
 }
