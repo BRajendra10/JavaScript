@@ -1,16 +1,12 @@
-async function get_Products() {
+(async function get_Products() {
     const response = await fetch("https://dummyjson.com/products");
     const data = await response.json();
     await create_product(data.products);
-}
+})();
 
-get_Products();
-
-function create_eliment(tag, class_name = [], tag_info){
+function create_element(tag, class_name = [], tag_info){
     let el = document.createElement(tag);
-
     class_name.forEach((cls) => el.classList.add(cls));
-
     if (tag_info !== undefined) el.innerHTML = tag_info;
 
     return el;
@@ -19,25 +15,25 @@ function create_eliment(tag, class_name = [], tag_info){
 function create_product(products){
     let index = 0;
     for(let product of products){
-        let col_6 = create_eliment('div', ['col-6', `product-index${index}`]);
-        let card = create_eliment('div', ['card', 'mb-5']);
+        let col_6 = create_element('div', ['col-6', `product-index${index}`]);
+        let card = create_element('div', ['card', 'mb-5']);
         card.style['max-width'] = '600px';
 
-        let row = create_eliment('div', ['row', 'g-0']);
-        let col_md_4 = create_eliment('div', ['col-md-4']);
-        let image = create_eliment('img', ['img-fluid', 'rounded-start']);
+        let row = create_element('div', ['row', 'g-0']);
+        let col_md_4 = create_element('div', ['col-md-4']);
+        let image = create_element('img', ['img-fluid', 'rounded-start']);
         image.style['max-height'] = '260px';
         image.style['min-height'] = '190px';
         image.src = product.images[0];
 
-        let col_md_8 = create_eliment('div', ['col-md-8']);
-        let card_body = create_eliment('div', ['card-body']);
-        let card_title = create_eliment('h5', ['card-title', 'fs-5'], product.title);
+        let col_md_8 = create_element('div', ['col-md-8']);
+        let card_body = create_element('div', ['card-body']);
+        let card_title = create_element('h5', ['card-title', 'fs-5'], product.title);
 
-        let card_discription = create_eliment('p', ['card-text'], product.description);
-        let card_price = create_eliment('b', ['card-text', 'text-dark', 'd-block', 'mb-3'], `${product.price} $`);
+        let card_discription = create_element('p', ['card-text'], product.description);
+        let card_price = create_element('b', ['card-text', 'text-dark', 'd-block', 'mb-3'], `${product.price} $`);
 
-        let cart_btn = create_eliment('button', ['btn', 'btn-primary', `product${index}`], "Add to cart");
+        let cart_btn = create_element('button', ['btn', 'btn-primary', `product${index}`], "Add to cart");
 
         index++;
 
@@ -58,25 +54,9 @@ function create_product(products){
         document.querySelector('.container .row').appendChild(col_6);
     }
 
-    const btns = document.querySelectorAll('.btn');
-    add_to_cart(btns);
+    add_to_cart(document.querySelectorAll('.btn'));
 }
 
-
-// function add_to_cart(btns){
-//     let cart_body = document.querySelector('.offcanvas-body');
-//     btns.forEach((btn, index) => {
-//         btn.addEventListener('click', (e) => {
-//             let target = e.currentTarget.classList;
-
-//             if(target.contains(`product0`)){
-//                 let product_index0 = document.querySelector(`.product-index0`);
-//                 product_index0.classList.remove('col-6');
-//                 cart_body.appendChild(product_index0);
-//             }
-//         });
-//     });
-// }
 
 function add_to_cart(btns) {
     const cart_body = document.querySelector('.offcanvas-body');
@@ -87,19 +67,23 @@ function add_to_cart(btns) {
             const index = className?.replace('product', '');
             const product = document.querySelector(`.product-index${index}`);
 
-            const card_title = product.querySelector('.card-title');
-            card_title.classList.add('display-5', 'fs-6')
+            product.querySelector('.card-title').classList.add('display-4', 'fs-6');
+            product.querySelector('.card-text').remove();
+            
+            product.querySelector('.col-md-4').className = "col-md-6";
+            product.querySelector('.col-md-8').className = "col-md-6";
 
-            const card_text = product.querySelector('.card-text');
-            card_text.remove();
+            product.querySelector('.card').classList.remove('mb-5');
+            product.querySelector('.card').classList.add('mb-3');
+            product.querySelector('.card').style['height'] = "fit-content";
 
             const card_button = product.querySelector('.btn');
             card_button.classList.remove('btn-primary');
             card_button.classList.add('btn-danger');
             card_button.innerHTML = 'remove product';
             
-            product?.classList.remove('col-6');
-            product && cart_body.appendChild(product);
+            product.classList.remove('col-6');
+            cart_body.appendChild(product);
         });
     });
 }
