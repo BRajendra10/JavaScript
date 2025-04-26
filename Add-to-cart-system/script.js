@@ -94,7 +94,6 @@ function add_to_cart(btns) {
 }
 
 function add_bedge(){
-    console.log('function called');
     document.querySelector('.btn-cart').remove();
 
     let badge = create_element('span', ['position-absolute', 'top-0', 'start-100', 'translate-middle', 'badge', 'rounded-pill', 'bg-danger'], count_added_eliment);
