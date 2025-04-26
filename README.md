@@ -170,6 +170,29 @@ A sleek and responsive Weather App built using **HTML**, **CSS**, and **JavaScri
 
 ---
 
+# 🛒 Trending Products - Add to Cart System
+A simple Add to Cart system built using HTML, CSS (Bootstrap 5), and JavaScript.
+It fetches product data from a public API and displays trending products with the ability to add/remove them from the cart dynamically.
+
+## 🚀 Features
+
+- Fetches products dynamically from DummyJSON API.
+- Displays products in a responsive card layout.
+- Add products to the cart with a single click.
+- Cart sidebar using Bootstrap Offcanvas.
+- Dynamic cart badge showing number of added products.
+- Remove products easily from the cart.
+
+## 📸 Preview
+
+- Commin soon
+
+
+📜 API Reference
+Products fetched from: "https://dummyjson.com/products"
+
+---
+
 ## ✨ More Projects Coming Soon...
 
 Stay tuned for more JavaScript projects & UI components. Always learning, always building!
