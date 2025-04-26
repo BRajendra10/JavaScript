@@ -32,10 +32,10 @@ function create_product(products){
 
         let col_md_8 = create_eliment('div', ['col-md-8']);
         let card_body = create_eliment('div', ['card-body']);
-        let card_title = create_eliment('h5', ['card_title', 'fs-5'], product.title);
+        let card_title = create_eliment('h5', ['card-title', 'fs-5'], product.title);
 
         let card_discription = create_eliment('p', ['card-text'], product.description);
-        let card_price = create_eliment('b', ['card-text', 'text-dark', 'd-block', 'mb-3'], product.price);
+        let card_price = create_eliment('b', ['card-text', 'text-dark', 'd-block', 'mb-3'], `${product.price} $`);
 
         let cart_btn = create_eliment('button', ['btn', 'btn-primary', `product${index}`], "Add to cart");
 
@@ -63,17 +63,43 @@ function create_product(products){
 }
 
 
-function add_to_cart(btns){
-    let cart_body = document.querySelector('.offcanvas-body');
-    btns.forEach((btn, index) => {
-        btn.addEventListener('click', (e) => {
-            let target = e.currentTarget.classList;
+// function add_to_cart(btns){
+//     let cart_body = document.querySelector('.offcanvas-body');
+//     btns.forEach((btn, index) => {
+//         btn.addEventListener('click', (e) => {
+//             let target = e.currentTarget.classList;
 
-            if(target.contains(`product0`)){
-                let product_index0 = document.querySelector(`.product-index0`);
-                product_index0.classList.remove('col-6');
-                cart_body.appendChild(product_index0);
-            }
+//             if(target.contains(`product0`)){
+//                 let product_index0 = document.querySelector(`.product-index0`);
+//                 product_index0.classList.remove('col-6');
+//                 cart_body.appendChild(product_index0);
+//             }
+//         });
+//     });
+// }
+
+function add_to_cart(btns) {
+    const cart_body = document.querySelector('.offcanvas-body');
+
+    btns.forEach(btn => {
+        btn.addEventListener('click', ({ currentTarget }) => {
+            const className = [...currentTarget.classList].find(c => c.startsWith('product'));
+            const index = className?.replace('product', '');
+            const product = document.querySelector(`.product-index${index}`);
+
+            const card_title = product.querySelector('.card-title');
+            card_title.classList.add('display-5', 'fs-6')
+
+            const card_text = product.querySelector('.card-text');
+            card_text.remove();
+
+            const card_button = product.querySelector('.btn');
+            card_button.classList.remove('btn-primary');
+            card_button.classList.add('btn-danger');
+            card_button.innerHTML = 'remove product';
+            
+            product?.classList.remove('col-6');
+            product && cart_body.appendChild(product);
         });
     });
 }
