@@ -4,6 +4,8 @@
     await create_product(data.products);
 })();
 
+let count_added_eliment = 0;
+
 function create_element(tag, class_name = [], tag_info){
     let el = document.createElement(tag);
     class_name.forEach((cls) => el.classList.add(cls));
@@ -66,6 +68,7 @@ function add_to_cart(btns) {
             const className = [...currentTarget.classList].find(c => c.startsWith('product'));
             const index = className?.replace('product', '');
             const product = document.querySelector(`.product-index${index}`);
+            count_added_eliment++;
 
             product.querySelector('.card-title').classList.add('display-4', 'fs-6');
             product.querySelector('.card-text').remove();
@@ -84,6 +87,25 @@ function add_to_cart(btns) {
             
             product.classList.remove('col-6');
             cart_body.appendChild(product);
+
+            add_bedge();
         });
     });
+}
+
+function add_bedge(){
+    console.log('function called');
+    document.querySelector('.btn-cart').remove();
+
+    let badge = create_element('span', ['position-absolute', 'top-0', 'start-100', 'translate-middle', 'badge', 'rounded-pill', 'bg-danger'], count_added_eliment);
+
+    let new_btn = create_element('button', ['btn', 'btn-cart', 'rounded-circle'], 
+        '<i class="bi bi-cart3 fs-3"></i>');
+    new_btn.setAttribute('data-bs-toggle', 'offcanvas');
+    new_btn.setAttribute('data-bs-target', '#offcanvasRight');
+    new_btn.setAttribute('aria-controls', 'offcanvasRight');
+    new_btn.setAttribute('onclick', 'add_bedge()');
+
+    new_btn.appendChild(badge);
+    document.querySelector('.d-flex').appendChild(new_btn);
 }
