@@ -194,6 +194,27 @@ Products fetched from: "https://dummyjson.com/products"
 
 ---
 
+# 🎶 Music Player App
+
+A simple and clean music player built with HTML, CSS, and JavaScript.
+It features a responsive UI, play/pause functionality, song progress tracking, and seek control.
+
+## 🚀 Features
+
+- Modern and minimalistic music player design
+- Play and pause songs with a single click
+- Display of song image, title, and artist
+- Real-time audio progress tracking
+- Seek functionality using the progress bar
+- Responsive and mobile-friendly UI
+- RemixIcon integration for smooth icons
+
+## 📸 Demo Preview
+
+- Comming soon
+
+---
+
 ## ✨ More Projects Coming Soon...
 
 Stay tuned for more JavaScript projects & UI components. Always learning, always building!
